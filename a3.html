@@ -1,0 +1,30 @@
+<!-- --------------------------------------------
+Diego Buencamino - 301362822 - CMPT165 D100
+ASSIGNMENT 3 SUBMISSION - HTML ONLY
+--------------------------------------------- -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 3</title>
+        <link rel="stylesheet" type="text/css" href="a3.css">
+        <script src = "a3.js"></script>
+    </head>
+    <body>
+        <div class="box header"><h1>The Reaction Test.</h1></div>
+        <div class="box header">
+            Number of Rounds: <input id="rounds"><br> 
+            <input type="button" value="Start!" class="start" onclick="driver()">
+        </div>
+        <div class="box header">
+                <h2 id='wincolor'>The colour you need to click will appear here.</h2>
+        </div>
+        <div class="container">
+            <button id="1" class="colorbox" onclick="reply(this.id)"></button>
+            <button id="2" class="colorbox" onclick="reply(this.id)"></button>
+            <button id="3" class="colorbox" onclick="reply(this.id)"></button>
+            <button id="4" class="colorbox" onclick="reply(this.id)"></button>
+        </div>
+    </body>
+</html>
